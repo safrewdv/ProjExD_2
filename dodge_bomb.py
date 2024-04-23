@@ -78,6 +78,7 @@ def main():
             if event.type == pg.QUIT: 
                 return
             if kk_rct.colliderect(enn_rct):
+                print("Game Over")
                 gamenhyouji(screen)
                 time.sleep(5)
                 pg.display.update()
